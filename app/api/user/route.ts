@@ -4,7 +4,7 @@ export async function GET(request: Request) {
 
     let data = {
         "name": "Melvin Dave",
-        "age": 30
+        "age": 46
     }
 
     console.log(data)
