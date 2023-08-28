@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 async function getData() {
     
-    const res = await fetch('http://127.0.0.1:3000/api/user')
+    const res = await fetch('http://localhost:3000/api/user', { next: { revalidate: 0 }})
 
     console.log(res)
    
